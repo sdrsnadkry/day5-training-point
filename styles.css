@@ -11,10 +11,12 @@
 .header {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 
 .header .header-logo {
     border-right: 1px solid #CCCCCC;
+    padding-right: 32px;
 }
 
 .header .header-logo img {
@@ -22,8 +24,14 @@
     height: 50px;
 }
 
+.navigation {
+    padding-left: 8px;
+}
+
 .navigation ul li {
     list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .navigation ul {
